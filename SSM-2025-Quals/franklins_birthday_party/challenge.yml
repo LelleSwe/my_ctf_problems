@@ -1,0 +1,32 @@
+title: Franklin's Birthday Party
+description: "The ghost of Benjamin Franklin - free in the afterlife - is having a spectacular birthday party, but forgot to invite you! 
+However you know that if you can get in he won't stop you. 
+However to make sure only invited guests are allowed you were all given a pair of passwords to input into the afterlifely automatic authorization apparatus, but you don't even have one! 
+If you can glitch out the apparatus, however...
+
+
+(Would a ghost celebrate their birthday when they were born, or when they died? After all, it was a new birth into the afterlife...)"
+authors:
+  - Leonard Jarlskog
+categories:
+  - crypto
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: "\"W3LC0M3_T0_TH3_B1RTHD4Y_P4RTY,_Y0U_4R3.\"-THEMACHINE;TM;"
+
+service:
+  type: tcp
+  image: container
+  internal_port: 1337
+  privileged: true
+
+downloadable_files:
+  - container/service.py
+
+score: 500
+challenge_id: 36b3c2f1-c047-4fba-a873-2fe447fc4ada
+spec: 0.0.1
+
+custom:
+  order: 25

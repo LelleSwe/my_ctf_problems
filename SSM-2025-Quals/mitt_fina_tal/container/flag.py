@@ -1,0 +1,1 @@
+flag = "SSM{d0nt_us3_1nv3rt1bl3_r4nd0m!11!1}"

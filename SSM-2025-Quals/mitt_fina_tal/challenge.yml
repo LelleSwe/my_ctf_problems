@@ -1,0 +1,26 @@
+title: Mitt fina tal
+description: Min slumptalsgenerator gav ett fint svar en gång i tiden, men nu vill den aldrig ge det fina svaret igen! Kan du få den att ge sitt fina svar igen? :(
+authors:
+  - Leonard Jarlskog
+categories:
+  - crypto
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: d0nt_us3_1nv3rt1bl3_r4nd0m!11!1
+
+service:
+  type: tcp
+  image: container
+  internal_port: 1337
+  privileged: true
+
+downloadable_files:
+- service.py
+
+score: 300
+challenge_id: 4e635da4-4254-48d4-893e-0cfb30554767
+spec: 0.0.1
+
+custom:
+  order: 23

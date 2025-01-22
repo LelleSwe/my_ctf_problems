@@ -1,0 +1,26 @@
+title: Flagxor
+description: I set up a flag encryption service, but I can't make a decryption service! I can't access all my flags! Could you help me get my flags back? :(
+authors:
+  - Leonard Jarlskog
+categories:
+  - crypto
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: w3_d0_sur3_l0v3_1nv0lu7ion5!
+
+service:
+  type: tcp
+  image: container
+  internal_port: 1337
+  privileged: true
+
+downloadable_files:
+  - container/service.py
+
+score: 200
+challenge_id: d89fd290-0ec4-4422-abab-63779b82d474
+spec: 0.0.1
+
+custom:
+  order: 22

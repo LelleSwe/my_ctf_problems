@@ -1,0 +1,14 @@
+Python:
+Collision found!
+b'GIFFEL-83033972'
+b'GIFFEL-21893836'
+Time taken: 114.4527235031128 seconds
+
+Rust:
+Found collision!
+GIFFEL-83033972
+GIFFEL-21893836
+Time taken: 81 seconds.
+
+Note: Python solve used 10GB RAM.
+      Rust   solve used  9GB RAM.
