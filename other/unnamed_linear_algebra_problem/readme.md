@@ -1,7 +1,7 @@
 flag format: Likely Giffel{}, but that could be wrong.
 
 downloadable: 
-- Lelle.py
+- lelle.py
 - output.txt
     
 ### Note: This problem is partially unsolveable due to floating point inaccuracy.
