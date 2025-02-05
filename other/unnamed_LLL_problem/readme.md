@@ -1,7 +1,7 @@
-flag format: Giffel{}
+flag format: SPX{}
 
 downloadable: 
 - giffel.py
 - output.txt
 
-### Note: There is no author solution for this problem, but Blupper once sent a solve script over Discord.
+### Note: This problem has been given a new life over at https://decompil.in/ctf as "Alfred's Runes", which is nice!
