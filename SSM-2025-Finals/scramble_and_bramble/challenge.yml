@@ -1,0 +1,18 @@
+title: clmrebaS nad rBambel
+description: treAf ym epovuirs dseitras hwit lxgFrao, I eedanlr ot ypoeplrr mcabersl my glsaf. SRA si oytamerrp, but ym agfl si elnaert!
+#I was cryptographically cryptographing a new cryptosystem, and I want to know if it cryptographs properly. Can you crypto it for me?
+authors:
+  - Leonard Jarlskog
+categories:
+  - crypto
+  - enkel
+flag_format_prefix: SSM{
+flags: my_fl4g5_w1ll_b3_s4f3_f0r3ver!1!11!!!1!11!!1!11!111!1!
+
+downloadable_files:
+  - main.py
+  - output.txt
+
+
+challenge_id: 5625f95a-9e99-4fde-91c4-c45ec1fafae0
+spec: 0.0.1

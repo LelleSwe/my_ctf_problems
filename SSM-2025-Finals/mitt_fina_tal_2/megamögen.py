@@ -1,0 +1,1 @@
+hexagon = b"SSM{look_at_this_cool_video_:D_https://youtu.be/inSv48lf4E0}"

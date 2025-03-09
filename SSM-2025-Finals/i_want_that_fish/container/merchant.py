@@ -1,0 +1,1 @@
+flagfish = b"SSM{idk-i'll_figure-something-@ut..fish?:P}"
